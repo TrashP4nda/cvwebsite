@@ -10,6 +10,7 @@
     border-radius: 10%;
     transition: 0.3s;
     gap: 0.5vh;
+    
 }
 .customButton:hover{
     background-color: #738ADB;

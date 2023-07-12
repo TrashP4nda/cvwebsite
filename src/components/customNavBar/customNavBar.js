@@ -5,11 +5,12 @@ import CustomLogo from '../customLogo/customLogo'
 function customNavBar(props) {
   return (
     <div className="customNavBar">
-      <CustomLogo/>
-      <CustomButton name="About" icon="faQuestion"/>
-      <CustomButton name="Experience"/>
-      <CustomButton name="Who am I"/>
-      <CustomButton name="Contact"/>
+      <ul>
+          <li><CustomLogo/></li>
+          <li><CustomButton name="About" icon="faQuestion"/></li>
+          <li><CustomButton name="Experience"/></li>
+          <li><CustomButton name="Contact"/></li>
+      </ul>
     </div>
   );
 }

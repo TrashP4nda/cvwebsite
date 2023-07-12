@@ -12,7 +12,7 @@ function customButton(props) {
    var icono = parse.icon({ prefix: 'fas', iconName: 'faQuestion'})
   return (
     <div className="customButton">
-     <FontAwesomeIcon icon={["fas", "Question"]} />
+     <FontAwesomeIcon icon={faQuestion} />
       {props.name}
     </div>
   );

@@ -2,11 +2,13 @@
     height: 100%;
     width: 4vw;
     padding: 1vw;
-    background:rgba(54, 57, 62, 1) ;
-    position: fixed;
+    background:rgba(54, 57, 62, 0) ;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     gap: 10vh;
+    z-index: 100;
+    
 }
