@@ -1,6 +1,7 @@
 import Particles from "react-tsparticles"
 import { useCallback } from "react";
 import { loadFull } from "tsparticles";
+import  './background.css';
 
 function Background(props) {
 
@@ -16,7 +17,7 @@ function Background(props) {
         await console.log(container);
     }, []);
   return (
-    <div className="Background">
+    <div className="background">
     <Particles
       id="tsparticles"
       init={particlesInit}
@@ -24,7 +25,7 @@ function Background(props) {
             options={{
                 background: {
                     color: {
-                        value: '#1E2124',
+                        value: '#201547',
                     },
                 },
                 fpsLimit: 120,
@@ -55,10 +56,10 @@ function Background(props) {
                         value: "#ffffff",
                     },
                     links: {
-                        color: "#ffffff",
+                        color: "#eb0869",
                         distance: 100,
                         enable: true,
-                        opacity: 0.5,
+                        opacity: 1,
                         width: 1,
                     },
                     collisions: {
