@@ -1,0 +1,75 @@
+.infoSection{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    overflow: auto;
+    
+  
+}
+
+
+a:link {
+  text-decoration:none;
+  
+}
+
+a{
+  color: blue !important;
+  
+}
+
+a:hover{
+  animation:flickerAnimation 1s infinite;
+}
+
+
+
+.title{
+    font-size: 3em;
+    
+}
+
+.typewriter {
+    overflow: hidden; 
+    margin: 0 auto; 
+    white-space: nowrap;
+    letter-spacing: .15em; 
+    font-size: 2em;
+  }
+  
+  @media (max-width: 990px) {
+    .typewriter {
+      white-space: normal;
+      
+    }}
+
+ 
+  @keyframes typing {
+    from { width: 0;  }
+    to { width: 100%;}
+  }
+  
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: transparent; }
+  }
+
+
+  @keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+
+
+  .textAnim{
+    animation-name:text-anim;
+    animation: 
+    typing 3s steps(40, end);
+    
+  }

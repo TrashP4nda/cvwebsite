@@ -1,5 +1,6 @@
 .collapsibleButton{
     background-color: #14d9c5 !important;
+    color: #5C1010;
 }
 
 
@@ -9,8 +10,30 @@
     100% { opacity:1; }
   }
 
-  .animate-flicker {
-     width: fit-content;
-     color: #14d9c5;
-     animation: flickerAnimation .5s infinite;
+  .animate-flicker{
+    opacity: 0;
+  }
+
+
+.prueba:hover .animate-flicker{
+    
+    color: #14d9c5;
+    animation: flickerAnimation .5s infinite;
+    opacity: 1;
+    background-color: #14d9c5;
  }
+
+
+ @media (max-width: 990px) {
+    .collapsibleItems {
+      background-color: #5C1010 !important;
+      border: 1px solid #14d9c5;
+    }}
+
+
+.icono{
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  color:#14d9c5 !important ;
+}

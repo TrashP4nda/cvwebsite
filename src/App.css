@@ -9,7 +9,7 @@ body{
 
 }
 
-h4,h1{
+h4,h1,h2,p{
   color: #14d9c5 !important;
 }
 
@@ -18,13 +18,13 @@ h4,h1{
   height: 400vh;
 }
 
-.InfoSection{
-  height: fit-content;
-  display: flex;
-  color: white;
+.Intro{
   height: 100vh;
-  width: 100%;
-  gap:2%
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:#14d9c5  ;
+  font-size: 2em;
 }
 
 .MiddleSection{
@@ -33,22 +33,17 @@ h4,h1{
   position: relative;
   align-items: center;
   z-index: 50;
-}
-
-
-.text{
-  display: flex;
-  flex-direction: column;
-  height: fit-content;
-  align-items: center;
-}
-
-
-.timeline{
-  width: 2px;
-  margin-left: 20%;
-  color: white;
-  background-color: white;
   
 }
+
+
+footer{
+  z-index: 50;
+  color: #14d9c5;
+  text-align: center;
+  font-size: 1em;
+}
+
+
+
 
