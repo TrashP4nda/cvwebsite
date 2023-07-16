@@ -20,10 +20,10 @@ function customNavBar(props) {
               <span className="animate-flicker">1</span>
             </h4>
             </Nav.Link>
-            <Nav.Link href="#experience" className='mx-auto prueba'><h4>Experience<span className="animate-flicker">1</span></h4></Nav.Link>
-            <Nav.Link href="#education" className='mx-auto prueba'><h4>Education<span className="animate-flicker">1</span></h4></Nav.Link>
-            <Nav.Link href="#skills" className='mx-auto prueba'><h4>Skills<span className="animate-flicker">1</span></h4></Nav.Link>
-            <Nav.Link href="#contact" className='mx-auto prueba'><h4>Contact<span className="animate-flicker">1</span></h4></Nav.Link>
+            <Nav.Link to="about" smooth="true" duration={100} className='mx-auto prueba'><h4>Experience<span className="animate-flicker">1</span></h4></Nav.Link>
+            <Nav.Link to="education" smooth="true" duration={100} className='mx-auto prueba'><h4>Education<span className="animate-flicker">1</span></h4></Nav.Link>
+            <Nav.Link to="skills" smooth="true" duration={100} className='mx-auto prueba'><h4>Skills<span className="animate-flicker">1</span></h4></Nav.Link>
+            <Nav.Link to="contact" smooth="true" duration={100} className='mx-auto prueba'><h4>Contact<span className="animate-flicker">1</span></h4></Nav.Link>
             <Nav.Link href="https://github.com/TrashP4nda"><FontAwesomeIcon icon={faGithub} className='icono mx-auto prueba'/></Nav.Link>
             <Nav.Link href="https://www.linkedin.com/in/daniel-mart%C3%ADn-7387b7172/"><FontAwesomeIcon icon={faLinkedin} className='icono mx-auto prueba'/></Nav.Link>
           </Nav>
